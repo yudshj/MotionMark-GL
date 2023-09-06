@@ -29,42 +29,51 @@ var Suite = function(name, tests) {
 
 var Suites = [];
 
-Suites.push(new Suite("MotionMark",
+Suites.push(new Suite("3D Graphics",
     [
         {
-            url: "core/multiply.html",
-            name: "Multiply"
-        },
-        {
-            url: "core/canvas-stage.html?pathType=arcs",
-            name: "Canvas Arcs"
-        },
-        {
-            url: "core/leaves.html",
-            name: "Leaves"
-        },
-        {
-            url: "core/canvas-stage.html?pathType=linePath",
-            name: "Paths"
-        },
-        {
-            url: "core/canvas-stage.html?pathType=line&lineCap=square",
-            name: "Canvas Lines"
-        },
-        {
-            url: "core/image-data.html",
-            name: "Images"
-        },
-        {
-            url: "core/design.html",
-            name: "Design"
-        },
-        {
-            url: "core/suits.html",
-            name: "Suits"
+            url: "3d/triangles-webgl.html",
+            name: "Triangles (WebGL)"
         },
     ]
 ));
+
+// Suites.push(new Suite("MotionMark",
+//     [
+//         {
+//             url: "core/multiply.html",
+//             name: "Multiply"
+//         },
+//         {
+//             url: "core/canvas-stage.html?pathType=arcs",
+//             name: "Canvas Arcs"
+//         },
+//         {
+//             url: "core/leaves.html",
+//             name: "Leaves"
+//         },
+//         {
+//             url: "core/canvas-stage.html?pathType=linePath",
+//             name: "Paths"
+//         },
+//         {
+//             url: "core/canvas-stage.html?pathType=line&lineCap=square",
+//             name: "Canvas Lines"
+//         },
+//         {
+//             url: "core/image-data.html",
+//             name: "Images"
+//         },
+//         {
+//             url: "core/design.html",
+//             name: "Design"
+//         },
+//         {
+//             url: "core/suits.html",
+//             name: "Suits"
+//         },
+//     ]
+// ));
 
 function suiteFromName(name)
 {
